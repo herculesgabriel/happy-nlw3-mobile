@@ -14,10 +14,6 @@ interface Orphanage {
   name: string;
   latitude: number;
   longitude: number;
-  about: string;
-  instructions: string;
-  open_on_weekends: string;
-  opening_hours: string;
 }
 
 export default function OrphanagesMap() {
