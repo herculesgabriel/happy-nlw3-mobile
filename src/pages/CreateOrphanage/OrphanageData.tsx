@@ -59,8 +59,6 @@ export default function OrphanageData() {
 
     await api.post("orphanages", data);
 
-    console.log('success')
-
     navigation.navigate("OrphanagesMap");
   };
 
